@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Погода</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="weather">
+      <input
+        type="search"
+        list="suggestions"
+        class="weather__search"
+        placeholder="Ваш город"
+      />
+      <datalist id="suggestions"></datalist>
+      <div class="weather__today">
+        <div class="weather__details">
+          <h2 class="weather__city">Город</h2>
+          <p class="weather__day">День</p>
+          <div class="weather__current">
+            <p class="weather__indicator weather__indicator--humidity">
+              <span class="value">50</span>%
+            </p>
+            <p class="weather__indicator weather__indicator--wind">
+              <span class="value">Запад, 5</span>м/с
+            </p>
+            <p class="weather__indicator weather__indicator--pressure">
+              <span class="value">1050</span>гПа
+            </p>
+          </div>
+        </div>
+        <img
+          src="images/clear-sky.png"
+          alt="Ясное небо"
+          class="weather__image"
+        />
+        <div class="weather__temperature">
+          <span class="value">+25</span> &deg;C
+        </div>
+      </div>
+      <div class="weather__forecast">
+        <article class="weather__forecast__item">
+          <img
+            src="images/clear-sky.png"
+            alt="Ясное небо"
+            class="weather__forecast__icon"
+          />
+          <h3 class="weather__forecast__day">День</h3>
+          <p class="weather__forecast__temperature">
+            <span class="value">+25</span> &deg;C
+          </p>
+        </article>
+        <article class="weather__forecast__item">
+          <img
+            src="images/clear-sky.png"
+            alt="Ясное небо"
+            class="weather__forecast__icon"
+          />
+          <h3 class="weather__forecast__day">День</h3>
+          <p class="weather__forecast__temperature">
+            <span class="value">+25</span> &deg;C
+          </p>
+        </article>
+        <article class="weather__forecast__item">
+          <img
+            src="images/clear-sky.png"
+            alt="Ясное небо"
+            class="weather__forecast__icon"
+          />
+          <h3 class="weather__forecast__day">День</h3>
+          <p class="weather__forecast__temperature">
+            <span class="value">+25</span> &deg;C
+          </p>
+        </article>
+        <article class="weather__forecast__item">
+          <img
+            src="images/clear-sky.png"
+            alt="Ясное небо"
+            class="weather__forecast__icon"
+          />
+          <h3 class="weather__forecast__day">День</h3>
+          <p class="weather__forecast__temperature">
+            <span class="value">+25</span> &deg;C
+          </p>
+        </article>
+        <article class="weather__forecast__item">
+          <img
+            src="images/clear-sky.png"
+            alt="Ясное небо"
+            class="weather__forecast__icon"
+          />
+          <h3 class="weather__forecast__day">День</h3>
+          <p class="weather__forecast__temperature">
+            <span class="value">+25</span> &deg;C
+          </p>
+        </article>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
